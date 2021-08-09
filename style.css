@@ -1,0 +1,85 @@
+body{
+    margin: auto; text-align: center; padding: 2rem; background-image: url("image.jpeg"); 
+}
+
+input[type="text"]{
+    padding: .5rem; font-size: 20px; border: 2px solid black; border-radius: 10px;
+}
+
+button{
+    padding: .5rem; padding-left: 2rem; padding-right: 2rem; font-size: 20px; border: 2px solid black; background-color: powderblue; border-radius: 10px;
+}
+
+.element{
+    border-radius: 30px; border: 1px solid pink; width: 50%; background-color: white; font-family:cursive; margin: auto; padding: 10px; margin-bottom: 1rem; box-shadow: 2px 2px 2px violet;
+}
+
+.dicon{
+	float: right; padding-right: 20px;
+}
+
+.sicon{
+	float: left; padding-left: 20px;
+}
+
+.save-item{
+	position: absolute; top: 140px; height: 500px; width: 280px; box-shadow: 0px 8px 8px #226841; border-radius: 10px; border-top: 1px solid #226841; padding: 1rem; font-size: 25px; font-family: cursive;  overflow: auto; color: rgb(141, 133, 23); 
+}
+
+.refresh{
+  position: fixed; bottom: 79%;  color: rgb(105, 7, 145); padding: 3px; border-radius: 8px; font-size: 20px;
+  
+}
+
+.refresh:hover{
+  opacity: 0.5; background-color: #f0ace7;
+}
+
+.heading{
+  font-family: 'Abril Fatface'; letter-spacing: 12px; 
+}
+
+.head-ing{
+    color: rgb(34, 58, 10); width: 250px; position: fixed; bottom:80%; left:4%;
+}
+h5{
+	display:none;
+}
+
+h1{
+	display: none;
+}
+
+@media (max-width: 1023px){
+	.save-item, .refresh, .head-ing{
+		display: none;
+	}
+	input[type="text"] {
+    width: 90%;
+    height: 5%;
+		font-size: 35px;
+	}
+	button{
+			margin-top: 2rem;
+    width: 20%;
+    padding: .7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: powderblue;
+    border-radius: 10px;
+	}
+	#demo{
+		font-size: 28px;
+	}
+h5{
+	display: block;
+	font-size: 30px;
+	color:#c70c0c;
+}
+h1{
+	font-size: 50px;
+	display: block;
+}
+}
